@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aviator - WebGL Game</title>
-</head>
+
+    <!-- CDN Links -->
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.167.1/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.167.1/examples/jsm/"
+          }
+        }
+      </script>
+    
+    <!--CSS File-->
+    <link rel="stylesheet" href="aviator.css">
+
+
 <body>
-    <h1>hello</h1>
-    <script type="module" src="/aviator.js"></script>
+    <div id="world">
+
+    </div>
+    <script type="module" src="aviator.js"></script> 
 </body>
 </html>
